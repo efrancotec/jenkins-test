@@ -7,6 +7,7 @@ pipeline{
 		stage("build"){
 			steps{
 				echo 'Building de application'
+				echo 'Test New commit'
 			}
 		}
 		stage("test"){
